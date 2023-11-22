@@ -1,0 +1,104 @@
+.shipping {
+    padding: 50px 20px;
+}
+
+.shipmentProgress {
+    margin: auto;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.progressCheck {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.progressSteps {
+    padding: 15px 20px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+.progressStep p {
+    color: #909090;
+    font-weight: 500;
+}
+
+.progressStep h6 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.progressStatus {
+    padding: 15px 35px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 15px 30px;
+}
+
+thead tr {
+    background-color: #eee;
+}
+
+tr {
+    color: #767676;
+    font-weight: 600;
+    border-bottom: 1px solid #dedede;
+    height: 50px;
+}
+
+.shipTitle {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.shipAddress {
+    background-color: #eee;
+    border-radius: 13px;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+}
+
+.shipAddress p {
+    color: #767676;
+    font-weight: 500;
+}
+
+.shipHelp {
+    border-radius: 13px;
+    padding: 25px 15px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 12%);
+    margin-top: 20px;
+}
+
+.shipHelp button {
+    border-radius: 7px;
+    padding: 4px 45px;
+}
+
+.shipStatus p {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+@media (max-width: 668px) {
+    .steps, .progressStatus {
+        display: none;
+    }
+        .progressSteps {
+            border: none;
+        }
+    table{
+        width: 80px;
+    }
+}
