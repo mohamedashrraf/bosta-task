@@ -14,7 +14,7 @@ export default function ShipmentProvider ({ children }){
                 const response = await axios.get(`https://tracking.bosta.co/shipments/track/${id}`);
                 setShipmentData(response.data);
             } catch (error) {
-                console.error('Error fetching shipment data:', error);
+                console.error('fetching shipment data:', error);
             }
         };
 

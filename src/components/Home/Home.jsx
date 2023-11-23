@@ -8,6 +8,7 @@ export default function Home() {
 
     const handleSearchNo = (event) => {
         setSearchInput(event.target.value);
+        
         }
 
     const { t } = useTranslation();
